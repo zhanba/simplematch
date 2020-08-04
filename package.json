@@ -1,0 +1,34 @@
+{
+  "name": "simplematch",
+  "version": "0.1.0",
+  "description": "simple typesafe pattern match",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "father-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanba/simplematch.git"
+  },
+  "keywords": [
+    "pattern",
+    "match"
+  ],
+  "author": "zhanba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanba/simplematch/issues"
+  },
+  "homepage": "https://github.com/zhanba/simplematch#readme",
+  "devDependencies": {
+    "@umijs/fabric": "^2.2.2",
+    "father-build": "^1.18.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ]
+}
